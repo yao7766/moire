@@ -1,10 +1,8 @@
-export const config = {
-  title: Verso",
+export default {
+  title: "左頁笔记本",
   author: "Yao",
-  theme: "receipt",
+  description: "INFP的电子杂志🦋",
   pageSize: 20,
-  order_by: "created",
-  description: "INFP'S E-MAGAZINE",
-  keywords: "memo, thought, sync, apple notes, shortcuts, ios",
-  url: "https://moire.blog"
-};
+  theme: "receipt",
+  order_by: "modified"
+}
